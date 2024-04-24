@@ -1,5 +1,8 @@
 *{
-    background-color: #191919;
+    background: url(abouttttt.jpg);
+    /* background-size: -contain; */
+    /* -webkit-background-size: cover; */
+    /* background-color: rgb(126, 198, 237); */
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -9,7 +12,10 @@
     {
      width: 100%;
      padding: 78px 0px;
-     background-color: #191919;
+     /* background-color: #191919; */
+     background: url(aboutbg.jpg);
+     background-size: contain;
+
     }
 
 .about img
@@ -50,7 +56,7 @@ span
 color: #be0a43;
 }
 .about-text p{
-color: #fcfc;      
+color: rgba(223, 122, 206, 0.8);      
 letter-spacing: 1px;
 line-height: 28px;
 font-size: 18px;
